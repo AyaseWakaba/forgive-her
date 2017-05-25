@@ -1,0 +1,30 @@
+<html>
+  <head>
+    {% if title %}
+    <title>{{title}} - 喵</title>
+    {% else %}
+    <title>microblog</title>
+    {% endif %}
+    
+  </head>
+  <body>
+     <h2>{{ the_title }}</h2>
+
+     <form method='POST' action=''>
+     <table>
+     <p>使用此窗体提交原谅请求：</p>
+      <tr><td>mail：</td><td><input name='phrase' type='Email' width='60'></td></tr>
+      <tr><td>github id：</td><td><input name='letters' type='TEXT' value=''></td></tr>
+      <tr><td>xxxx：</td><td><input name='letters' type='TEXT' value=''></td></tr>
+      <tr><td>date：</td><td><input name='letters' type='TEXT' value='年/月/日'></td></tr>
+      <tr><td>asho：</td><td><input name='letters' type='TEXT' value='：'></td></tr>
+      帽子<br>
+      <select name="cap">
+      <option value="green">绿色</option>     
+      </table>
+      <p>准备就绪后, 单击此按钮：</p>
+      <p><input value='原谅她！' type='SUBMIT'></p>
+      </form>
+     
+  </body>
+</html>
