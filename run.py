@@ -6,7 +6,13 @@
 from app import app
 app.run(debug = True)
 
-
+adsdsdwdawdfrom app import app
+app.run(debug = True)from app import app
+app.run(debug = True)from app import app
+app.run(debug = True)from app import app
+app.run(debug = True)from app import app
+app.run(debug = True)from app import app
+app.run(debug = True)
 # In[ ]:
 
 
